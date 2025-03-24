@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <a href="./index.html" class="menu_link-active">Home</a>
+    <form action="/" class="myform">
+        <h2>Пием для конасультаций</h2>
+        <div class="imput_group">
+            <label for="username">Имя</label>
+            <input 
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Tokito"
+            >
+        </div>
+        <div class="input_group">
+            <label for="password">Пароль</label>
+            <input 
+            type="text"
+            name="password"
+           id="password"
+            placeholder="ведите пароль"
+            >
+        </div>
+        <div class="input_group">
+            <label for="about_me">Обо мне</label>
+            <textarea 
+            name="about_me"
+             id="about_me"
+             cols="40"
+             rows="10"
+             placeholder="напишите что-нибудь о себе"
+             ></textarea>
+        </div>
+        <div class="input_group">
+            <label for="gender">Пол</label>
+            <div class="input_group_wrapper">
+                <div class="input_inner">
+                    <input type="radio" name="gender" id="g1" value="male">
+                    <label for="g1">Мужчина</label>
+                </div>
+                <div class="input_inner">
+                    <input type="radio" name="geder" id="g2" value="female">
+                    <label for="g2">Женщина</label>
+                </div>
+            </div>
+        </div>
+       <!-- <div class="input_group"> -->
+             <!-- <label for="ch1">Какая проблема?</label>
+             <div class="input_group_wrapper">
+                <div class="input_inner">
+            <input type="checkbox" name="kill"  id="kill">
+            <label for="kill">Убиства </label>
+             </div>
+            <div class="input_inner">
+                <input type="checkbox" name="turma"  id="turma">
+                <label for="turnma">Тюрма </label>
+            </div>
+                <div class="input_inner">
+                    <input type="checkbox" name="sud"  id="sud">
+                    <label for="sud">Суд </label>
+                </div>
+            </div>
+           </div> -->
+           <div class="input_group">
+            <label for="City">Выбери город</label>
+            <select name="city" id="citi" size="1">
+                <option value="almaty">Алматы </option>
+                <option value="nur-sutan">Астана </option>
+                <option value="atyrau">Атырау </option>
+                <option value="moscow">Москва </option>
+            </select>
+           </div>
+           <div class="input_group">
+            <input type="submit" value="отправить">
+           </div>
+       </form>
+</body>
+</html>
